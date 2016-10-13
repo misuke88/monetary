@@ -2,12 +2,13 @@ import os
 import sys
 import jpype
 import nltk
+import numpy
 
 from settings import DATA_DIR
 from konlpy.tag import Twitter
 from pprint import pprint
 from matplotlib import pylab, font_manager, rc
-from gensim import corpora, models, similarities
+#from gensim import corpora, models, similarities
 
 pos_tagger = Twitter()
 # nltk.download()
